@@ -3,7 +3,7 @@ version: '2'
 services:
   local-proxy:
     container_name: local-proxy
-    image: codekitchen/dinghy-http-proxy
+    image: taybenlor/dinghy-http-proxy
     environment:
       - DNS_IP=127.0.0.1
       - CONTAINER_NAME=local-proxy
